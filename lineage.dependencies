@@ -1,0 +1,30 @@
+
+
+[
+
+  {
+
+    "repository": "android_device_mediatek_sepolicy_vndr",
+
+    "target_path": "device/mediatek/sepolicy_vndr"
+
+  },
+
+  {
+
+    "repository": "android_kernel_realme_RMX2117",
+
+    "target_path": "kernel/realme/RMX2117"
+
+  },
+
+  {
+
+    "repository": "android-vendor-tree-RMX2117
+
+    "target_path": "vendor/realme/RMX2117"
+
+
+  }
+
+]
