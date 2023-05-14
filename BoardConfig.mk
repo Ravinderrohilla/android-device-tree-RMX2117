@@ -138,12 +138,12 @@ TARGET_TAP_TO_WAKE_NODE := /proc/touchpanel/double_tap_enable
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
-TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
-TARGET_ODM_DLKM_PROP += $(DEVICE_PATH)/odm_dlkm.prop
-TARGET_VENDOR_DLKM_PROP += $(DEVICE_PATH)/vendor_dlkm.prop
+#TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+#TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+#TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/system_ext.prop
+#TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
+#TARGET_ODM_DLKM_PROP += $(DEVICE_PATH)/odm_dlkm.prop
+#TARGET_VENDOR_DLKM_PROP += $(DEVICE_PATH)/vendor_dlkm.prop
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
