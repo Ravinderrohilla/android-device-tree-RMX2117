@@ -1,9 +1,0 @@
-type bp_kmsetkey_ca, domain;
-type bp_kmsetkey_ca_exec, exec_type, file_type, vendor_file_type;
-
-init_daemon_domain(bp_kmsetkey_ca)
-hal_client_domain(bp_kmsetkey_ca, hal_keymaster)
-
-allow bp_kmsetkey_ca ut_keymaster_device:chr_file rw_file_perms;
-allow bp_kmsetkey_ca teei_client_device:chr_file rw_file_perms;
-set_prop(bp_kmsetkey_ca, soter_teei_prop)

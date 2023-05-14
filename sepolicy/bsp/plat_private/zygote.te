@@ -1,2 +1,0 @@
-# Purpose : allow to get mtk_rsc_sys_prop
-get_prop(zygote, mtk_rsc_sys_prop);
