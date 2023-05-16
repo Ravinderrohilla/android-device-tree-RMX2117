@@ -25,7 +25,7 @@ $(call inherit-product, device/realme/RMX2117/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_RMX2117
+PRODUCT_NAME := lineage_RMX2117
 PRODUCT_DEVICE := RMX2117
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme narzo 30 pro 5g
