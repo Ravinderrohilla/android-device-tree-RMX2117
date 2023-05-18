@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX2117.mk
+    $(LOCAL_DIR)/lineage_RMX2117.mk
     
     
 
