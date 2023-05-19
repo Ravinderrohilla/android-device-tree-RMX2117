@@ -62,7 +62,6 @@ ro.build.keystore.path=/sdcard/.lii/
 ro.camera.sound.forced=0
 ro.config.per_app_memcg=false
 ro.dalvik.vm.native.bridge=0
-ro.debuggable=0
 ro.iorapd.enable=false
 ro.kernel.zio=38,108,105,16
 ro.mediatek.version.branch=alps-mp-s0.mssi1
