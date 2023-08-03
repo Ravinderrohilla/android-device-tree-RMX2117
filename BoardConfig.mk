@@ -149,8 +149,8 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 ALLOW_MISSING_DEPENDENCIES=true
 
-#PRODUCT_PARTITION_LIST += oplus_custom
-#PRODUCT_oplus_custom_PARTITION_TYPE := emmc
+PRODUCT_PARTITION_LIST += oplus_custom
+PRODUCT_oplus_custom_PARTITION_TYPE := emmc
 
 
 # Recovery
