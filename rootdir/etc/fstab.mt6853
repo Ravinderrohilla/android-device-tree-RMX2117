@@ -64,6 +64,7 @@ odm /odm ext4 ro wait,,logical,first_stage_mount,nofail
 /dev/block/by-name/boot /boot emmc defaults first_stage_mount,nofail,
 
 
+/dev/block/by-name/oplus_custom /oplus_custom emmc defaults first_stage_mount,nofail,
 
 
 
